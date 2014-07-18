@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Angular Boilerplate</title>
+    <meta charset="utf-8">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- build:css css/style.min.css -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endbuild -->
+
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <h1 class="brand">Angular Boilerplate</h1>
+        </div>
+    </nav>
+
+    <main class="container">
+        <ng-view></ng-view>
+    </main>
+
+    <footer></footer>
+
+    <!-- build:js js/app.min.js -->
+    <script src="lib/parse/parse.min.js"></script>
+    <script src="vendor/moment/min/moment-with-langs.min.js"></script>
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular-route/angular-route.min.js"></script>
+    <script src="vendor/angular-moment/angular-moment.min.js"></script>
+    <script src="vendor/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/route.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>

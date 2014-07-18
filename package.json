@@ -1,0 +1,25 @@
+{
+  "name": "Angular Boilerplate",
+  "version": "0.0.0",
+  "description": "Angular Boilerplate",
+  "readme": "Angular Boilerplate",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-jshint": "^1.6.1",
+    "gulp-clean": "^0.2.4",
+    "gulp-concat": "^2.2.0",
+    "gulp-uglify": "^0.3.0",
+    "gulp-filter": "^0.4.1",
+    "gulp-useref": "^0.4.3",
+    "gulp-minify-css": "^0.3.4",
+    "event-stream": "^3.1.5",
+    "gulp-rev": "^0.3.2",
+    "gulp-rev-replace": "^0.1.0",
+    "gulp-bower": "0.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jia-He Jou"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "angular-boilerplate",
+  "version": "0.0.0",
+  "description": "Angular Boilerplate",
+  "authors": [
+    "Jia-He Jou"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "~2.1.1",
+    "jquery-ui": "~1.10.4",
+    "angular": "~1.2.16",
+    "bootstrap": "~3.1.1",
+    "font-awesome": "~4.1.0",
+    "angular-route": "~1.2.16",
+    "angular-animate": "~1.2.16",
+    "angular-ui": "~0.4.0",
+    "angular-bootstrap": "~0.11.0",
+    "moment": "~2.6.0",
+    "angular-moment": "~0.7.1"
+  }
+}
