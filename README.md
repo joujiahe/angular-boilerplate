@@ -1,6 +1,11 @@
 Angular Boilerlate
 ==================
 
+Dependencies
+------------
+* Gulp
+* Bower
+
 Includes
 --------
 * Angular 1.2.16
